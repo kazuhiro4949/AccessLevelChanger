@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MakeSwiftCodeOpen
 //
-//  Created by 林和弘 on 2021/01/09.
+//  Created by Kazuhiro Hayashi on 2021/01/09.
 //
 
 import Cocoa
