@@ -27,14 +27,14 @@ class AddPublicToKeywords: SyntaxRewriter {
         }
     }
     
-    private var onlyTopLevelDecl: Bool {
+    private var disabledNestedDecl: Bool {
         UserDefaults.appGroups
-            .bool(forKey: UserDefaults.onlyTopLevelDeclKey)
+            .bool(forKey: UserDefaults.disabledNestedDecl)
     }
     
     // Can have public members
     override func visit(_ node: ClassDeclSyntax) -> DeclSyntax {
-        if onlyTopLevelDecl, !node.isNotMemberListItem {
+        if disabledNestedDecl, !node.isNotMemberListItem {
             return DeclSyntax(node)
         }
         
@@ -50,7 +50,7 @@ class AddPublicToKeywords: SyntaxRewriter {
     }
     
     override func visit(_ node: StructDeclSyntax) -> DeclSyntax {
-        if onlyTopLevelDecl, !node.isNotMemberListItem {
+        if disabledNestedDecl, !node.isNotMemberListItem {
             return DeclSyntax(node)
         }
         
@@ -67,7 +67,7 @@ class AddPublicToKeywords: SyntaxRewriter {
     }
     
     override func visit(_ node: EnumDeclSyntax) -> DeclSyntax {
-        if onlyTopLevelDecl, node.isNotMemberListItem {
+        if disabledNestedDecl, node.isNotMemberListItem {
             return DeclSyntax(node)
         }
         

@@ -48,7 +48,7 @@ extension UserDefaults {
         suiteName: "R33Y42SDDR.kazuhiro.hayashi.MakeSwiftOpen"
     )!
     
-    static var onlyTopLevelDeclKey: String = "enabledNesteDecl"
+    static var disabledNestedDecl: String = "disabledNestedDecl"
     static var targetStatesKey: String = "targetStates"
 }
 

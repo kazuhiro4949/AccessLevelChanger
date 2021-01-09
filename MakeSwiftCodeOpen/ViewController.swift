@@ -32,7 +32,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         onlyTopLevelCheckButton.state = NSButton.StateValue(
-            isOn: userDefaults.bool(forKey: UserDefaults.onlyTopLevelDeclKey)
+            isOn: userDefaults.bool(forKey: UserDefaults.disabledNestedDecl)
         )
         
         
@@ -70,9 +70,9 @@ class ViewController: NSViewController {
     @IBAction func enableNestedCheckmarkActionSent(_ sender: NSButton) {
         switch sender.state {
         case .off:
-            userDefaults.set(false, forKey: UserDefaults.onlyTopLevelDeclKey)
+            userDefaults.set(true, forKey: UserDefaults.disabledNestedDecl)
         case .on:
-            userDefaults.set(true, forKey: UserDefaults.onlyTopLevelDeclKey)
+            userDefaults.set(false, forKey: UserDefaults.disabledNestedDecl)
         case .mixed:
             break
         default:
