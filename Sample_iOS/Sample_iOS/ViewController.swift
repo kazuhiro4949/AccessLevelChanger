@@ -95,7 +95,7 @@ struct Struct1 {
     mutating func func2() {}
 }
 
- enum Enum1 {
+enum Enum1 {
     case case1
     case case2
     case case3
@@ -128,7 +128,7 @@ func ??=(left: String, right: String) {
     
 }
 
- func testfunc2() {
+func testfunc2() {
     func testfunc3() {
         var aaa = ""
     }

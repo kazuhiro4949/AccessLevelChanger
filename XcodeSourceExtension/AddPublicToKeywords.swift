@@ -87,6 +87,10 @@ class AddPublicToKeywords: SyntaxRewriter {
         guard node.enabledToChangingToPublic else {
             return DeclSyntax(node)
         }
+
+        if states[.function] == false {
+            return DeclSyntax(node)
+        }
         
         let decl = node
                 .withReplacedScopeModifiers(
@@ -100,6 +104,10 @@ class AddPublicToKeywords: SyntaxRewriter {
             return DeclSyntax(node)
         }
         
+        if states[.variable] == false {
+            return DeclSyntax(node)
+        }
+        
         let decl = node
                 .withReplacedScopeModifiers(
                     with: [SyntaxFactory.makeDeclPublicKeywordModifier()]
@@ -109,6 +117,10 @@ class AddPublicToKeywords: SyntaxRewriter {
 
     override func visit(_ node: SubscriptDeclSyntax) -> DeclSyntax {
         guard node.enabledToChangingToPublic else {
+            return DeclSyntax(node)
+        }
+        
+        if states[.subscript] == false {
             return DeclSyntax(node)
         }
         
@@ -125,6 +137,10 @@ class AddPublicToKeywords: SyntaxRewriter {
             return DeclSyntax(node)
         }
         
+        if states[.`init`] == false {
+            return DeclSyntax(node)
+        }
+        
         let decl = node
             .withReplacedScopeModifiers(
                 with: [SyntaxFactory.makeDeclPublicKeywordModifier()]
@@ -134,6 +150,10 @@ class AddPublicToKeywords: SyntaxRewriter {
     }
     
     override func visit(_ node: ProtocolDeclSyntax) -> DeclSyntax {
+        if states[.protocol] == false {
+            return DeclSyntax(node)
+        }
+        
         let decl = node
             .withReplacedScopeModifiers(
                 with: [SyntaxFactory.makeDeclPublicKeywordModifier()]
@@ -142,6 +162,10 @@ class AddPublicToKeywords: SyntaxRewriter {
     }
     
     override func visit(_ node: TypealiasDeclSyntax) -> DeclSyntax {
+        if states[.typealias] == false {
+            return DeclSyntax(node)
+        }
+        
         let decl = node
             .withReplacedScopeModifiers(
                 with: [SyntaxFactory.makeDeclPublicKeywordModifier()]
@@ -152,6 +176,10 @@ class AddPublicToKeywords: SyntaxRewriter {
     
     
     override func visit(_ node: AssociatedtypeDeclSyntax) -> DeclSyntax {
+        if states[.associatedtype] == false {
+            return DeclSyntax(node)
+        }
+        
         let decl = node
             .withReplacedScopeModifiers(
                 with: [SyntaxFactory.makeDeclPublicKeywordModifier()]

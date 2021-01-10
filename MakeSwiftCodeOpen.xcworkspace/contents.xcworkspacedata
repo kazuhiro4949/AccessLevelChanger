@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Sample_iOS/Sample_iOS.xcodeproj">
+      location = "group:MakeSwiftCodeOpen.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MakeSwiftCodeOpen.xcodeproj">
+      location = "group:Sample_iOS/Sample_iOS.xcodeproj">
    </FileRef>
 </Workspace>
