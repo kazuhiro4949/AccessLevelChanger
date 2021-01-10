@@ -2,7 +2,7 @@
 //  Sample_iOSUITests.swift
 //  Sample_iOSUITests
 //
-//  Created by 林和弘 on 2021/01/10.
+//  Created by Kazuhiro Hayashi on 2021/01/10.
 //
 
 import XCTest
