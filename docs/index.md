@@ -1,6 +1,6 @@
 
 ## Privacy Policy
-built the BOOM!CAM as a Free app. This SERVICE is provided by
+built the MakeSwiftCodeOpen as a Free app. This SERVICE is provided by
                      at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure
@@ -12,7 +12,7 @@ If you choose to use my Service, then you agree to the collection and use of inf
                     in this Privacy Policy.
 
 The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is
-                    accessible at BOOM!CAM unless otherwise defined in this Privacy Policy.
+                    accessible at MakeSwiftCodeOpen unless otherwise defined in this Privacy Policy.
                     
 ## Information Collection and Use
                     
