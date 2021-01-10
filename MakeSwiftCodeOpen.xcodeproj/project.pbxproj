@@ -15,7 +15,7 @@
 		3032225C25A9E4F8002BB110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032225925A9E4F8002BB110 /* Main.storyboard */; };
 		3032225D25A9E4F8002BB110 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032225A25A9E4F8002BB110 /* Target.swift */; };
 		3032226825A9E516002BB110 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032226725A9E516002BB110 /* Cocoa.framework */; };
-		3032227425A9E516002BB110 /* XcodeSourceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3032226525A9E516002BB110 /* XcodeSourceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3032227425A9E516002BB110 /* Make Swift Code Open.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3032226525A9E516002BB110 /* Make Swift Code Open.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3032228225A9E529002BB110 /* DeclSyntaxProtocol+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032227E25A9E529002BB110 /* DeclSyntaxProtocol+Utilities.swift */; };
 		3032228325A9E529002BB110 /* SyntaxFactory+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032227F25A9E529002BB110 /* SyntaxFactory+Utilities.swift */; };
 		3032228425A9E529002BB110 /* DeclModifierSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032228025A9E529002BB110 /* DeclModifierSyntax.swift */; };
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3032227425A9E516002BB110 /* XcodeSourceExtension.appex in Embed App Extensions */,
+				3032227425A9E516002BB110 /* Make Swift Code Open.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,7 +109,7 @@
 		3032225825A9E4F7002BB110 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3032225925A9E4F8002BB110 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3032225A25A9E4F8002BB110 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
-		3032226525A9E516002BB110 /* XcodeSourceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XcodeSourceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3032226525A9E516002BB110 /* Make Swift Code Open.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Make Swift Code Open.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032226725A9E516002BB110 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3032226925A9E516002BB110 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		3032227025A9E516002BB110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				3032222325A9E4D0002BB110 /* MakeSwiftCodeOpen.app */,
 				3032223525A9E4D1002BB110 /* MakeSwiftCodeOpenTests.xctest */,
 				3032224025A9E4D1002BB110 /* MakeSwiftCodeOpenUITests.xctest */,
-				3032226525A9E516002BB110 /* XcodeSourceExtension.appex */,
+				3032226525A9E516002BB110 /* Make Swift Code Open.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,7 +333,7 @@
 				303222A125A9E58A002BB110 /* SwiftSyntax */,
 			);
 			productName = XcodeSourceExtension;
-			productReference = 3032226525A9E516002BB110 /* XcodeSourceExtension.appex */;
+			productReference = 3032226525A9E516002BB110 /* Make Swift Code Open.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
@@ -744,7 +744,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.MakeSwiftCodeOpen.XcodeSourceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Make Swift Code Open";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -765,7 +765,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.MakeSwiftCodeOpen.XcodeSourceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Make Swift Code Open";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
