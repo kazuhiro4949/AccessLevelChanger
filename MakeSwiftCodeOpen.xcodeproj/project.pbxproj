@@ -606,6 +606,7 @@
 				CODE_SIGN_ENTITLEMENTS = MakeSwiftCodeOpen/MakeSwiftCodeOpen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = R33Y42SDDR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MakeSwiftCodeOpen/Info.plist;
@@ -629,6 +630,7 @@
 				CODE_SIGN_ENTITLEMENTS = MakeSwiftCodeOpen/MakeSwiftCodeOpen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = R33Y42SDDR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MakeSwiftCodeOpen/Info.plist;
