@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Sample_iOS
 //
-//  Created by 林和弘 on 2021/01/10.
+//  Created by Kazuhiro Hayashi on 2021/01/10.
 //
 
 import UIKit
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let prop1 = ""
-        var prop2 = ""
+        print(prop1)
     }
     
     // MARK:- properties
