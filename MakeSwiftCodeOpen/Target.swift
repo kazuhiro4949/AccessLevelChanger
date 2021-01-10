@@ -45,7 +45,7 @@ extension Dictionary where Key == Target, Value == Bool {
 
 extension UserDefaults {
     static let appGroups = UserDefaults(
-        suiteName: "R33Y42SDDR.kazuhiro.hayashi.MakeSwiftOpen"
+        suiteName: "R33Y42SDDR.kazuhiro.hayashi.MakeSwiftCodeOpen"
     )!
     
     static var disabledNestedDecl: String = "disabledNestedDecl"
