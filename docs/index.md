@@ -1,93 +1,37 @@
+Access Level Changer is one of **Xcode Source Editor Extension**.
 
-## Privacy Policy
-built the MakeSwiftCodeOpen as a Free app. This SERVICE is provided by
-                     at no cost and is intended for use as is.
+It can perform a batch conversion of your source code from internal access level to public.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure
-                    of Personal Information if anyone decided to use my Service.
+This has macOS app too. 
+In the app, you can choose wether each declaration in your code needs to be changed.
 
-If you choose to use my Service, then you agree to the collection and use of information in
-                    relation to this policy. The Personal Information that I collect is used for providing and improving
-                    the Service. I will not use or share your information with anyone except as described
-                    in this Privacy Policy.
+It supports only Swift Language.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is
-                    accessible at MakeSwiftCodeOpen unless otherwise defined in this Privacy Policy.
-                    
-## Information Collection and Use
-                    
-or a better experience, while using our Service, I may require you to provide us with certain
-                    personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+Swift and Xcode are trademarks of Apple Inc., registered in the U.S. and other countries.
+[Access Level Changer for Xcode](https://kazuhiro4949.github.io/AccessLevelChanger/) is not affiliated with Apple, Inc.
 
-The app does use third party services that may collect information used to identify you.
-Link to privacy policy of third party service providers used by the app
+# Usage
 
-## Log Data
+First of all, you needs to change the preference to use Xcode Source Editor Extension.
 
-I want to inform you that whenever you use my Service, in a case of
-                    an error in the app I collect data and information (through third party products) on your phone
-                    called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address,
-                    device name, operating system version, the configuration of the app when utilizing my Service,
-                    the time and date of your use of the Service, and other statistics.
-## Cookies
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
-                    These are sent to your browser from the websites that you visit and are stored on your device's internal
-                    memory.
+### 1. Open System Preferences -> Extension
+<img width="400" alt="Screen Shot 2021-01-11 at 16 48 41" src="https://user-images.githubusercontent.com/18320004/104156640-e740a600-542c-11eb-95c5-427d940ad66e.png">
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and
-                    libraries that use “cookies” to collect information and improve their services. You have the option to
-                    either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose
-                    to refuse our cookies, you may not be able to use some portions of this Service.
+### 2. Put a checkmark next to "Access Level Changer for Xcode"
+<img width="400" alt="Screen Shot 2021-01-11 at 16 42 56" src="https://user-images.githubusercontent.com/18320004/104156458-6aadc780-542c-11eb-8f9e-376d36d55b54.png">
 
-## Service Providers
+Then, you can use the extension after Running (or restarting) Xcode.
 
-I may employ third-party companies and individuals due to the following reasons:
+### 3. Select and highlight a range in your source code
 
-- To facilitate our Service;
-- To provide the Service on our behalf;
-- To perform Service-related services; or
-- To assist us in analyzing how our Service is used.
+<img width="400" alt="Screen Shot 2021-01-11 at 16 50 47" src="https://user-images.githubusercontent.com/18320004/104156806-3090f580-542d-11eb-8c69-a21b4f743c19.png">
 
-I want to inform users of this Service that these third parties have access to
-                    your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However,
-                    they are obligated not to disclose or use the information for any other purpose.
+### 4. Click the Editor -> Access Level Changer for Xcode menu
 
-## Security
+<img width="400" alt="Screen Shot 2021-01-11 at 16 51 39" src="https://user-images.githubusercontent.com/18320004/104156857-4b636a00-542d-11eb-9b73-5d5f990ff4ce.png">
 
-I value your trust in providing us your Personal Information, thus we are striving
-                    to use commercially acceptable means of protecting it. But remember that no method of transmission over
-                    the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee
-                    its absolute security.
 
-## Links to Other Sites
+### 5. That performs the batch conversion to your highlighted source code.
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed
-                    to that site. Note that these external sites are not operated by me. Therefore, I strongly
-                    advise you to review the Privacy Policy of these websites. I have no control over
-                    and assume no responsibility for the content, privacy policies, or practices of any third-party sites
-                    or services.
+<img width="400" alt="Screen Shot 2021-01-11 at 17 06 16" src="https://user-images.githubusercontent.com/18320004/104157913-7c449e80-542f-11eb-9a0a-acb791742ebe.png">
 
-## Children’s Privacy
-
-These Services do not address anyone under the age of 13. I do not knowingly collect
-                    personally identifiable information from children under 13. In the case I discover that a child
-                    under 13 has provided me with personal information, I immediately delete this from
-                    our servers. If you are a parent or guardian and you are aware that your child has provided us with personal
-                    information, please contact me so that I will be able to do necessary actions.
-
-## Changes to This Privacy Policy
-
-I may update our Privacy Policy from time to time. Thus, you are advised to review
-                    this page periodically for any changes. I will notify you of any changes by posting
-                    the new Privacy Policy on this page. These changes are effective immediately after they are posted on
-                    this page.
-## Contact Us
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-                    me.
-
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net)
-                    and modified/generated by [App
-                      Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/")
-    
-    
