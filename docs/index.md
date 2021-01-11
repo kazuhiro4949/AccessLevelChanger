@@ -12,6 +12,10 @@ Swift and Xcode are trademarks of Apple Inc., registered in the U.S. and other c
 # Usage
 
 1. Open System Preferences -> Extension
+
+
+
+
 2. Put a checkmark next to "Access Level Changer for Xcode"
 3. Run (or restart) Xcode
 4. Select and highlight a range in your source code
