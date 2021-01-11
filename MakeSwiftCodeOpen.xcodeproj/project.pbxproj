@@ -95,7 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3032222325A9E4D0002BB110 /* AccessControlChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessControlChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3032222325A9E4D0002BB110 /* Access Level Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Access Level Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032222625A9E4D0002BB110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3032222A25A9E4D1002BB110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3032222F25A9E4D1002BB110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		3032222425A9E4D0002BB110 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3032222325A9E4D0002BB110 /* AccessControlChanger.app */,
+				3032222325A9E4D0002BB110 /* Access Level Changer.app */,
 				3032223525A9E4D1002BB110 /* MakeSwiftCodeOpenTests.xctest */,
 				3032224025A9E4D1002BB110 /* MakeSwiftCodeOpenUITests.xctest */,
 				3032226525A9E516002BB110 /* Access Control Changer for Xcode.appex */,
@@ -276,7 +276,7 @@
 				3032229B25A9E580002BB110 /* SwiftSyntax */,
 			);
 			productName = MakeSwiftCodeOpen;
-			productReference = 3032222325A9E4D0002BB110 /* AccessControlChanger.app */;
+			productReference = 3032222325A9E4D0002BB110 /* Access Level Changer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3032223425A9E4D1002BB110 /* MakeSwiftCodeOpenTests */ = {
@@ -606,7 +606,7 @@
 				CODE_SIGN_ENTITLEMENTS = MakeSwiftCodeOpen/MakeSwiftCodeOpen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = R33Y42SDDR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MakeSwiftCodeOpen/Info.plist;
@@ -616,7 +616,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.MakeSwiftCodeOpen;
-				PRODUCT_NAME = AccessControlChanger;
+				PRODUCT_NAME = "Access Level Changer";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -630,7 +630,7 @@
 				CODE_SIGN_ENTITLEMENTS = MakeSwiftCodeOpen/MakeSwiftCodeOpen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = R33Y42SDDR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MakeSwiftCodeOpen/Info.plist;
@@ -640,7 +640,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.MakeSwiftCodeOpen;
-				PRODUCT_NAME = AccessControlChanger;
+				PRODUCT_NAME = "Access Level Changer";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
