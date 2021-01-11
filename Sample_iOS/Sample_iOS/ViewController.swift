@@ -7,23 +7,23 @@
 
 import UIKit
 
-public protocol ViewControllerDelegate: AnyObject {
+protocol ViewControllerDelegate: AnyObject {
     func viewControllerDidSelectClose(_ vc: ViewController)
 }
 
-public class ViewController: UIViewController {
-    public typealias Label = String
+class ViewController: UIViewController {
+    typealias Label = String
     
-    public struct Section {
-        public enum Row {
+    struct Section {
+        enum Row {
             case main
             case footer
         }
         
-        public let rows: [Row]
+        let rows: [Row]
     }
     
-    public var section: [Section] = [Section]() {
+    var section: [Section] = [Section]() {
         didSet {
             view.setNeedsLayout()
         }

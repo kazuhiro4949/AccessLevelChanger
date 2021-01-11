@@ -10,6 +10,7 @@ import Cocoa
 
 
 class ViewController: NSViewController {
+    @IBOutlet weak var documentationTextField: NSTextField!
     @IBOutlet weak var onlyTopLevelCheckButton: NSButton!
     
     var targetStates = [Target: Bool].default
@@ -45,6 +46,16 @@ class ViewController: NSViewController {
         }
         
         configure()
+        
+        let linkAttrValue = NSAttributedString(
+            string: "https://kazuhiro4949.github.io/AccessLevelChanger/",
+            attributes: [
+                .link: URL(string: "https://kazuhiro4949.github.io/AccessLevelChanger/")!,
+                .font: NSFont.systemFont(ofSize: 12)
+                
+        ])
+        documentationTextField.attributedStringValue = linkAttrValue
+        documentationTextField.isSelectable = true
     }
     
     private func configure() {
