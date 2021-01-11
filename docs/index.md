@@ -7,9 +7,9 @@ In the app, you can choose wether each declaration in your code needs to be chan
 It supports only Swift Language.
 
 Swift and Xcode are trademarks of Apple Inc., registered in the U.S. and other countries.
-Access Level Changer for Xcode (https://kazuhiro4949.github.io/AccessLevelChanger/) is not affiliated with Apple, Inc.
+[Access Level Changer for Xcode](https://kazuhiro4949.github.io/AccessLevelChanger/) is not affiliated with Apple, Inc.
 
-* Usage
+# Usage
 
 1. Open System Preferences -> Extension
 2. Put a checkmark next to "Access Level Changer for Xcode"
