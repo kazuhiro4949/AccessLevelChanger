@@ -87,7 +87,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="AccessControlChanger" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Access_Level_Changer" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,7 +117,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="AccessControlChanger" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Access_Level_Changer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="966" height="528"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -221,7 +221,7 @@
                                         <rect key="frame" x="408" y="72" width="511" height="345"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YvT-zQ-rch">
-                                                <rect key="frame" x="0.0" y="300" width="424" height="45"/>
+                                                <rect key="frame" x="0.0" y="300" width="446" height="45"/>
                                                 <subviews>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Mja-pJ-kbH">
                                                         <rect key="frame" x="-2" y="24" width="96" height="21"/>
@@ -232,8 +232,8 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="hqL-Lz-NXb">
-                                                        <rect key="frame" x="-2" y="0.0" width="428" height="16"/>
-                                                        <textFieldCell key="cell" selectable="YES" title="Which kind of declerations do you change the access levels in Xcode?" id="C4e-qI-CjR">
+                                                        <rect key="frame" x="-2" y="0.0" width="450" height="16"/>
+                                                        <textFieldCell key="cell" selectable="YES" title="Which kind of declerations do you want to change from internal to public?" id="C4e-qI-CjR">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -262,7 +262,7 @@
                                                             <action selector="enableNestedCheckmarkActionSent:" target="XfG-lQ-9wD" id="rEn-CO-Cn6"/>
                                                         </connections>
                                                     </button>
-                                                    <box title="Targets" translatesAutoresizingMaskIntoConstraints="NO" id="86i-rT-yfX">
+                                                    <box title="Declerations" translatesAutoresizingMaskIntoConstraints="NO" id="86i-rT-yfX">
                                                         <rect key="frame" x="-3" y="-4" width="517" height="224"/>
                                                         <view key="contentView" id="G4Y-Jm-4jj">
                                                             <rect key="frame" x="3" y="3" width="511" height="206"/>
