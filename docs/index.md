@@ -14,7 +14,6 @@ Swift and Xcode are trademarks of Apple Inc., registered in the U.S. and other c
 First of all, you needs to change the preference to use Xcode Source Editor Extension.
 
 ### 1. Open System Preferences -> Extension
-
 <img width="400" alt="Screen Shot 2021-01-11 at 16 48 41" src="https://user-images.githubusercontent.com/18320004/104156640-e740a600-542c-11eb-95c5-427d940ad66e.png">
 
 ### 2. Put a checkmark next to "Access Level Changer for Xcode"
