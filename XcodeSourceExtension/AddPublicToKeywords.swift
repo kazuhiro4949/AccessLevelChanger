@@ -67,7 +67,7 @@ class AddPublicToKeywords: SyntaxRewriter {
     }
     
     override func visit(_ node: EnumDeclSyntax) -> DeclSyntax {
-        if disabledNestedDecl, node.isNotMemberListItem {
+        if disabledNestedDecl, !node.isNotMemberListItem {
             return DeclSyntax(node)
         }
         
