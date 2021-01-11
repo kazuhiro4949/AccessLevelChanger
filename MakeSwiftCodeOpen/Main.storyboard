@@ -168,7 +168,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OI0-54-HHm">
+                                                    <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OI0-54-HHm">
                                                         <rect key="frame" x="0.0" y="0.0" width="376" height="56"/>
                                                         <subviews>
                                                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="3Re-6l-5Hu">
@@ -180,7 +180,7 @@
                                                                 </textFieldCell>
                                                             </textField>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NZS-zI-xEi">
-                                                                <rect key="frame" x="-2" y="0.0" width="68" height="16"/>
+                                                                <rect key="frame" x="154" y="0.0" width="68" height="16"/>
                                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="http://xxxx" allowsEditingTextAttributes="YES" id="u6J-UH-Xpm">
                                                                     <font key="font" metaFont="system"/>
                                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
