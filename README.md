@@ -14,6 +14,7 @@ It can perform a batch conversion of your source code from internal access level
 |:------------:|:------------:|:------------:|
 | <img width="800" src="https://user-images.githubusercontent.com/18320004/104384142-4d841080-5574-11eb-963f-7f43080a806e.png"> | → | <img width="800" src="https://user-images.githubusercontent.com/18320004/104384148-4fe66a80-5574-11eb-9329-8e71f804407e.png"> |
 
+## Usage
 
 Read a documentation: https://kazuhiro4949.github.io/AccessLevelChanger/
 
