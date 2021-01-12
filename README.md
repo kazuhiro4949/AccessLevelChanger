@@ -1,9 +1,7 @@
 # AccessLevelChanger
 Access Level Changer is one of Xcode Source Editor Extension.
 
-Changing Swift's access level is a tedious task.
-
-This app makes that easy on Xcode.
+Changing Swift's access level is a tedious task. This app makes that easy on Xcode.
 
 <a href="https://apps.apple.com/jp/app/access-level-changer-for-xcode/id1548122245">
   <img src="https://user-images.githubusercontent.com/18320004/104383646-82439800-5573-11eb-8ba7-397e9ecff86a.png" width=200 />
